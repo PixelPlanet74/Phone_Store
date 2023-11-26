@@ -1,0 +1,640 @@
+* {
+	font-family: 'Lato', sans-serif;
+
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	position: relative;
+}
+
+.ffont {
+	font-family: 'Lato', sans-serif;
+	/* font-family: 'Teko', sans-serif; */
+	font-weight: 900;
+	font-size: 25px;
+
+}
+.rightclass{
+	position: absolute;
+	right: 0;
+}
+
+
+html {
+	background: #000;
+	box-sizing: border-box;
+	font-family: 'Vollkorn', sans-serif;
+	font-size: 1rem;
+	color: #000;
+}
+
+.navwidth {
+	/* position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0; */
+	margin: 0;
+	padding: 0;
+}
+
+.qwerty {
+	/* position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0; */
+	font-size: 10px;
+	margin: 0;
+}
+
+
+
+.maard {
+	position: relative;
+}
+
+/* .slider3{
+    background: url(./img/video\ \(2160p\)) 0 0 no-repeat;
+    background-size:cover; height:350px; display:block;
+} */
+
+
+.vid {
+	height: 300px !important;
+	width: 100% !important;
+}
+
+.row {
+	width: 100% !important;
+}
+
+.alignmain {
+	width: 100% !important;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.coll1 {
+	height: 100px;
+	width: 200px;
+	background-image: url(https://blog-cdn.el.olx.com.pk/wp-content/uploads/2023/01/05174042/Best-camera-phones-in-Pakistan-1024x576.jpg);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: 0;
+	background-position-y: center;
+	background-position-x: center;
+	background-color: #000000;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	margin: 3px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 160%;
+	font-weight: 900;
+}
+
+.coll1:hover {
+	background-image: url(https://blog-cdn.el.olx.com.pk/wp-content/uploads/2023/01/05174042/Best-camera-phones-in-Pakistan-1024x576.jpg);
+
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	color: orange;
+	font-size: 160%;
+	font-weight: 900;
+}
+
+.coll2 {
+	height: 100px;
+	width: 200px;
+	background-image: url(https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/dic-website/en/award/award_list/2023/TCL%20Onetouch%204021%20Feature%20Phone.jpg);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	/* background-position: 0; */
+	background-position-y: center;
+	background-position-x: center;
+	background-color: #000000;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	margin: 3px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 160%;
+	font-weight: 900;
+}
+
+.coll2:hover {
+	background-image: url(https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/dic-website/en/award/award_list/2023/TCL%20Onetouch%204021%20Feature%20Phone.jpg);
+
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	color: orange;
+	font-size: 160%;
+	font-weight: 900;
+}
+
+.coll3 {
+	height: 100px;
+	width: 200px;
+	background-image: url(https://propakistani.pk/wp-content/uploads/2020/06/Mobile-accessories.jpg);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	/* background-position: 0; */
+	background-position-y: center;
+	background-position-x: center;
+	background-color: #000000;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	margin: 3px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 160%;
+	font-weight: 900;
+}
+
+.coll3:hover {
+	background-image: url(https://propakistani.pk/wp-content/uploads/2020/06/Mobile-accessories.jpg);
+
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	color: orange;
+	font-size: 160%;
+	font-weight: 900;
+}
+
+.coll4 {
+	height: 100px;
+	width: 200px;
+	background-image: url(https://www.webx.pk/images/Article/-0007-guide-to-starting-an-online-store-for-mobile-accessori-58-260123063106.png);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: 0;
+	background-position-y: center;
+	background-position-x: center;
+	background-color: #000000;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	margin: 3px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 160%;
+	font-weight: 900;
+}
+
+.coll4:hover {
+	background-image: url(https://www.webx.pk/images/Article/-0007-guide-to-starting-an-online-store-for-mobile-accessori-58-260123063106.png);
+
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	color: orange;
+	font-size: 160%;
+	font-weight: 900;
+}
+
+
+.card-des {
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.h1ed{
+	color: rgb(78, 78, 78);
+	margin-top: 10%;
+	font-size: 100%;
+
+}
+.h3ed{
+	color: rgb(78, 78, 78);
+	font-size: 100%;
+
+	
+}
+
+.para{
+	color: rgb(78, 78, 78);
+	font-size: xx-large;
+	margin-top: 10%;
+	font-size: 100%;
+
+}
+
+
+.maincont{
+	display: flex;
+	justify-content: space-around !important;
+	align-items: center;
+}
+.demo-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100%;
+	border-radius: 25px;
+	overflow: hidden;
+	position: relative;
+  }
+  
+  .demo-bg {
+	opacity: 0.2;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	
+	
+  }
+  
+  .demo-content {
+	font-size: 100% !important;
+	margin: 10%;
+	padding: 10px;
+	position: relative;
+	color: #636363;
+  }
+
+
+  .demo-wrap:hover .demo-bg{
+	opacity: 0.6;
+  }
+  .demo-wrap:hover .demo-content{
+	color: white;
+	background: rgba(0, 0, 0, 0.2) ;
+	border-radius: 25px;
+  }
+
+.padd{
+	align-items: center;
+}
+
+
+/* Footer */
+
+.footer{
+    width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+    /* padding: 50px 15%; */
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.fot2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 5%;
+    letter-spacing: 1px;
+}
+.fot1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.socialicons{
+    margin-top: 30px;
+}
+.socialicons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+	.qimg{
+		margin-top: 40%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Scroll */
+
+
+/* 
+
+
+
+@media screen and (min-width: 300px) {
+	body > article {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	figure {
+		background: #eee;
+		width: calc( 50% + 1px);
+
+		height: 80vh;
+		margin: 0 auto 10vh 0;
+		position: sticky;
+		justify-content: center;
+		align-items: center;
+		top: 0;
+		right: 0;
+		overflow: hidden;
+		box-shadow: 4px -4px 8px rgba(0,0,0,.4);
+			}
+	figure::after {
+		content: '';
+		position: absolute;
+		top: 5vmin;
+		right: 5vmin;
+		bottom: 5vmin;
+		left: 45%;
+		border: 2px dashed #fff;
+		outline: 1px solid #fff;
+		outline-offset: -5vmin;
+		backdrop-filter: grayscale(1);
+		pointer-events: none;
+			}
+	figure:nth-of-type(2n)::after {
+		right: 45%;
+		left: 5vmin;
+	}
+	section {
+		background: #e5e5e5;
+		width: calc(50% + 1px);
+		height: 80vh;
+		margin: 0 0 10vh auto;
+		position: sticky;
+		top: 0;
+
+		padding: 5vmin;
+		box-shadow: -4px -4px 8px rgba(0,0,0,.4);
+			}
+	figure:nth-of-type(1),
+	section:nth-of-type(1) {
+		margin: 0 0 10vh 0;
+		width: 50%;
+			}
+	figure:nth-of-type(2n) {
+		margin: 0 0 10vh auto;
+		box-shadow: -4px -4px 8px rgba(0,0,0,.4);
+			}
+	section:nth-of-type(2n) {
+		margin: 0 auto 10vh 0;
+		box-shadow: 4px -4px 8px rgba(0,0,0,.4);
+		}
+	figure:last-of-type,
+	section:last-of-type {
+		margin-bottom: 0;
+	}
+	section::before {
+		background: inherit;
+		z-index: 1;
+		content: '';
+		position: absolute;
+		top: 50%;
+		left:0;
+		width: 7vmin;
+		height: 7vmin;
+		transform: translate(calc(-50% + 1px), -50%) rotate(-45deg);
+		clip-path: polygon(-15% -15%, 110% 0%, 0% 110%);
+		box-shadow: -4px -2px 8px rgba(0,0,0,.4);
+		border-radius: 1.5vmin 0 0 0;
+	}
+	section:nth-of-type(2n)::before {
+		left:auto;
+		right: 0;
+		transform: translate(calc(50% - 1px), -50%) rotate(-45deg) scale(-1);
+	}
+	section::after {
+		content: '';
+		position: absolute;
+		top: 5vmin;
+		right: 45%;
+		bottom: 5vmin;
+		left: 5vmin;
+		border: 2px dashed #fff;
+		outline: 1px solid #fff;
+		outline-offset: -5vmin;
+		backdrop-filter: invert(1);
+		pointer-events: none;
+	}
+	section:nth-of-type(2n):after {
+		right: 5vmin;
+		left: 45%;
+	}
+	figure img {
+		min-width: 100%;
+		min-height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	section > div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+		padding: 1rem;
+	}
+    .scrlh{
+		margin: 15% 0 auto;
+		font-size: 100%;
+
+		text-align: center;
+		font-weight: 700;
+		line-height: 1;
+		word-spacing: .5rem;
+	}
+    .scrlp {
+		text-align: right;
+		width: 100%;
+		font-family: "Cormorant", serif;
+		font-weight: 400;
+		font-style: italic;
+
+		font-size: 100%;
+		margin-bottom: 5%;
+	}
+	.aaa {
+		color: transparent;
+		-webkit-text-stroke: 2px #212121;
+		text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 2px;
+	}
+	.aaa:hover, .aaa:focus {	
+		-webkit-text-stroke: 1px #999;
+	}
+}
+
+@media screen and (min-width: 700px) {
+body > article {
+	display: flex;
+	flex-wrap: wrap;
+}
+figure {
+	background: #eee;
+	width: calc( 50% + 1px);
+	height: 100vh;
+	margin: 0 auto 10vh 0;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	box-shadow: 4px -4px 8px rgba(0,0,0,.4);
+		}
+figure::after {
+	content: '';
+	position: absolute;
+	top: 5vmin;
+	right: 5vmin;
+	bottom: 5vmin;
+	left: 45%;
+	border: 2px dashed #fff;
+	outline: 1px solid #fff;
+	outline-offset: -5vmin;
+	backdrop-filter: grayscale(1);
+	pointer-events: none;
+		}
+figure:nth-of-type(2n)::after {
+	right: 45%;
+	left: 5vmin;
+}
+section {
+	background: #e5e5e5;
+	width: calc(50% + 1px);
+	height: 100vh;
+	margin: 0 0 10vh auto;
+	position: sticky;
+	top: 0;
+
+	padding: 5vmin;
+	box-shadow: -4px -4px 8px rgba(0,0,0,.4);
+		}
+figure:nth-of-type(1),
+section:nth-of-type(1) {
+	margin: 0 0 10vh 0;
+	width: 50%;
+		}
+figure:nth-of-type(2n) {
+	margin: 0 0 10vh auto;
+	box-shadow: -4px -4px 8px rgba(0,0,0,.4);
+		}
+section:nth-of-type(2n) {
+	margin: 0 auto 10vh 0;
+	box-shadow: 4px -4px 8px rgba(0,0,0,.4);
+	}
+figure:last-of-type,
+section:last-of-type {
+	margin-bottom: 0;
+}
+section::before {
+	background: inherit;
+	z-index: 1;
+	content: '';
+	position: absolute;
+	top: 50%;
+	left:0;
+	width: 7vmin;
+	height: 7vmin;
+	transform: translate(calc(-50% + 1px), -50%) rotate(-45deg);
+	clip-path: polygon(-15% -15%, 110% 0%, 0% 110%);
+	box-shadow: -4px -2px 8px rgba(0,0,0,.4);
+	border-radius: 1.5vmin 0 0 0;
+}
+section:nth-of-type(2n)::before {
+	left:auto;
+	right: 0;
+	transform: translate(calc(50% - 1px), -50%) rotate(-45deg) scale(-1);
+}
+section::after {
+	content: '';
+	position: absolute;
+	top: 5vmin;
+	right: 45%;
+	bottom: 5vmin;
+	left: 5vmin;
+	border: 2px dashed #fff;
+	outline: 1px solid #fff;
+	outline-offset: -5vmin;
+	backdrop-filter: invert(1);
+	pointer-events: none;
+}
+section:nth-of-type(2n):after {
+	right: 5vmin;
+	left: 45%;
+}
+figure img {
+	min-width: 100%;
+	min-height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+section > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	padding: 1rem;
+}
+.scrlh{
+	margin: 15% 0 auto;
+	font-size: calc(5vmin + 3vmax);
+	text-align: center;
+	font-weight: 700;
+	line-height: 1;
+	word-spacing: .5rem;
+}
+.scrlp {
+	text-align: right;
+	width: 100%;
+	font-family: "Cormorant", serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: calc(1.5vmin + 1.75vmax);
+	margin-bottom: 5%;
+}
+.aaa {
+	color: transparent;
+	-webkit-text-stroke: 2px #212121;
+	text-decoration: none;
+font-weight: 900;
+letter-spacing: 2px;
+}
+.aaa:hover, .aaa:focus {	
+	-webkit-text-stroke: 1px #999;
+}
+} */
+
+/* Scroll */
